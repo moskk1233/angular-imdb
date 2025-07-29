@@ -1,0 +1,50 @@
+<div class="flex flex-col w-full rounded-xl overflow-hidden bg-[#1a1a1a]">
+  <div class="w-full">
+    <div class="overflow-hidden">
+      <a routerLink="/movies/{{movie().id}}">
+        <img [ngSrc]="movie().image" width="1500" height="2222" priority="1">
+      </a>
+    </div>
+  </div>
+  <div class="flex gap-5 p-2">
+    <div class="flex justify-center items-center">
+      <mat-icon class="!text-xl !text-[#f5c518]">star</mat-icon>
+      <span class="text-[#bbbbbb] text-lg">{{ movie().score| number: "1.1-1" }}</span>
+    </div>
+    <div class="flex justify-center items-center">
+      <button (click)="toggleIsFavorite()" matButton="text">
+        <mat-icon class="!text-xl !text-[#ced6ec] !m-0">
+          @if (isFavorited) {
+            star
+          } @else {
+            star_outline
+          }
+        </mat-icon>
+      </button>
+    </div>
+  </div>
+  <div class="px-2">
+    <a routerLink="/movies/{{movie().id}}">
+      <span class="text-white hover:font-bold hover:underline">
+        {{ movie().name }}
+      </span>
+    </a>
+  </div>
+  <div class="p-5 text-white flex flex-col gap-2">
+    <div class="w-full">
+      <button matButton="tonal" class="w-full !font-bold flex gap-3 flex-row-reverse">
+        <span>
+          Watch now
+        </span>
+        <mat-icon class="ml-2">open_in_new</mat-icon> </button>
+    </div>
+    <div class="w-full">
+      <button matButton="text" class="w-full !text-white !font-bold">
+        <mat-icon>play_arrow</mat-icon>
+        <span>
+          Trailer
+        </span>
+      </button>
+    </div>
+  </div>
+</div>

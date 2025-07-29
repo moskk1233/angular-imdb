@@ -1,0 +1,52 @@
+<div class="bg-center" [style.background-image]="'url(/' + people()?.image + ')'"
+>
+  <div class="bg-black/60 backdrop-blur-3xl pt-10">
+    <div class="w-[80%] mx-auto">
+      <div class="mb-5 !text-[#f5c518] font-bold text-4xl">
+        <a routerLink="">
+          <mat-icon>arrow_back</mat-icon>
+          <span class="ml-2">Back</span>
+        </a>
+      </div>
+
+      <div class="flex justify-between mb-5">
+        <div class="text-5xl text-white font-bold">
+          <span>
+            {{ people()?.name }}
+          </span>
+        </div>
+      </div>
+
+      <div class="flex relative">
+        <div class="w-[20rem] rounded-xl overflow-hidden">
+          <img class="w-full" [src]="people()?.image" alt="">
+        </div>
+
+        <div class="w-[50rem] mx-1 rounded-xl overflow-hidden text-white">
+          <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="My Rick Roll" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="w-auto flex gap-1 flex-col grow text-white">
+          <div class="flex flex-col gap-4 rounded-xl overflow-hidden bg-black/50 justify-center items-center h-[50%]  backdrop-blur-2xl">
+            <mat-icon>photo_library</mat-icon>
+            <span class="font-bold text-xl">6 Video</span>
+          </div>
+          <div class="flex flex-col gap-4 rounded-xl overflow-hidden bg-black/50 justify-center items-center h-[50%]  backdrop-blur-2xl">
+            <mat-icon>photo_library</mat-icon>
+            <span class="font-bold text-xl">99+ PHOTOS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full mt-5 text-white">
+        <div class="text-xl">
+          <div class="py-5">
+            <span>
+              {{ people()?.description }}
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+<main class="bg-black pt-20">
+  <section class="mb-10 flex flex-col w-3/4 mx-auto">
+    <app-card-scroll></app-card-scroll>
+  </section>
+
+  <section class="flex flex-col w-3/4 mx-auto">
+    <app-section-heading>
+      Top Actors on IMDb in this week
+    </app-section-heading>
+    <div class="flex shrink-0 gap-5 overflow-x-auto">
+      @for (actor of actors; track $index) {
+        <div>
+          <app-actor-thumbnail class="w-[13rem]" [actor]="actor"></app-actor-thumbnail>
+        </div>
+      }
+    </div>
+  </section>
+</main>

@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "name": "Happy Gilmore 2",
+    "categories": [
+      "High-Concept Comedy",
+      "Raunchy Comedy",
+      "Slapstick",
+      "Comedy",
+      "Sport"
+    ],
+    "score": 6.3,
+    "director": {
+      "id": 2,
+      "name": "Kyle Newacheck"
+    },
+    "writer": {
+      "id": 1,
+      "name": "Tim Herlihy"
+    },
+    "star": {
+      "id": 3,
+      "name": "Adam Sandler"
+    },
+    "image": "images/movies/movie1.jpg",
+    "description": "Revisit Happy Gilmore's golf career after his win in the Tour Championship."
+  },
+  {
+    "id": 2,
+    "name": "Game of Thrones",
+    "categories": [
+      "Action Epic",
+      "Dark Fantasy",
+      "Epic",
+      "Fantasy Epic"
+    ],
+    "score": 9.2,
+    "director": {
+      "id": 4,
+      "name": "David Benioff"
+    },
+    "writer": {
+      "id": 4,
+      "name": "David Benioff"
+    },
+    "star": {
+      "id": 5,
+      "name": "Emilia Clarke"
+    },
+    "image": "images/movies/movie2.jpg",
+    "description": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia."
+  },
+  {
+    "id": 3,
+    "name": "Narcos",
+    "categories": [
+      "Docudrama",
+      "Drug Crime",
+      "Epic",
+      "True Crime"
+    ],
+    "score": 8.7,
+    "director": {
+      "id": 7,
+      "name": "Chris Brancato"
+    },
+    "writer": {
+      "id": 7,
+      "name": "Chris Brancato"
+    },
+    "star": {
+      "id": 6,
+      "name": "Pedro Pascal"
+    },
+    "image": "images/movies/movie3.jpg",
+    "description": "A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar, as well as the many other drug kingpins who plagued the country through the years."
+  },
+  {
+    "id": 4,
+    "name": "Better Call Saul",
+    "categories": [
+      "Drug Crime",
+      "Epic",
+      "Legal Drama",
+      "Drama"
+    ],
+    "score": 9,
+    "director": {
+      "id": 8,
+      "name": "Vince Gilligan"
+    },
+    "writer": {
+      "id": 8,
+      "name": "Vince Gilligan"
+    },
+    "star": {
+      "id": 9,
+      "name": "Bob Odenkirk"
+    },
+    "image": "images/movies/movie4.jpg",
+    "description": "The trials and tribulations of criminal lawyer Jimmy McGill in the years leading up to his fateful run-in with Walter White and Jesse Pinkman."
+  },
+  {
+    "id": 5,
+    "name": "Stranger Things",
+    "categories": [
+      "Dark Fantasy",
+      "Fantasy Epic",
+      "Monster Horror",
+      "Sci-Fi Epic",
+      "Supernatural Fantasy"
+    ],
+    "score": 8.6,
+    "director": {
+      "id": 10,
+      "name": "Matt Duffer"
+    },
+    "writer": {
+      "id": 10,
+      "name": "Matt Duffer"
+    },
+    "star": {
+      "id": 11,
+      "name": "Millie Bobby Brown"
+    },
+    "image": "images/movies/movie5.jpg",
+    "description": "In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries."
+  },
+  {
+    "id": 6,
+    "name": "Avengers: Endgame",
+    "categories": [
+      "Space Sci-Fi",
+      "Superhero",
+      "Time Travel",
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "score": 8.4,
+    "director": {
+      "id": 12,
+      "name": "Anthony Russo"
+    },
+    "writer": {
+      "id": 13,
+      "name": "Christopher Markus"
+    },
+    "star": {
+      "id": 14,
+      "name": "Robert Downey Jr."
+    },
+    "image": "images/movies/movie6.jpg",
+    "description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
+  }
+]

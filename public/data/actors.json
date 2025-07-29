@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "name": "Tim Herlihy",
+    "description": "Tim Herlihy was born on 9 October 1966 in Brooklyn, New York, USA. He is a writer and producer, known for The Wedding Singer (1998), Pixels (2015) and Saturday Night Live (1975).",
+    "image": "images/actors/people1.jpg",
+    "age": 59
+  },
+  {
+    "id": 2,
+    "name": "Kyle Newacheck",
+    "description": "Kyle Newacheck was born on 23 January 1984 in Walnut Creek, California, USA. He is a producer and writer, known for Game Over, Man! (2018), Stranger in the Woods (2024) and Workaholics (2011).",
+    "image": "images/actors/people2.jpg",
+    "age": 41
+  },
+  {
+    "id": 3,
+    "name": "Adam Sandler",
+    "description": "Adam Richard Sandler was born September 9, 1966 in Brooklyn, New York, to Judith (Levine), a teacher at a nursery school, and Stanley Alan Sandler, an electrical engineer. He is of Russian Jewish descent. At 17, he took his first step towards becoming a stand-up comedian when he spontaneously took the stage at a Boston comedy club. He found he was a natural comic. He nurtured his talent while at New York University (graduating with a Bachelor of Fine Arts degree in 1991) by performing regularly in clubs and at...",
+    "image": "images/actors/people3.jpg",
+    "age": 59
+  },
+  {
+    "id": 4,
+    "name": "David Benioff",
+    "description": "David Benioff was born on 25 September 1970 in New York City, New York, USA. He is a writer and producer, known for Game of Thrones (2011), The Kite Runner (2007) and 25th Hour (2002). He has been married to Amanda Peet since 30 September 2006. They have three children.",
+    "image": "images/actors/people4.jpg",
+    "age": 55
+  },
+  {
+    "id": 5,
+    "name": "Emilia Clarke",
+    "description": "British actress Emilia Clarke was born in London and grew up in Oxfordshire, England. Her father was a theatre sound engineer and her mother is a businesswoman. Her father was working on a theatre production of \"Show Boat\" and her mother took her along to the performance. This is when, at the age of 3, her passion for acting began. From 2000 to 2005, she attended St. Edward's School of...",
+    "image": "images/actors/people5.jpg",
+    "age": 39
+  },
+  {
+    "id": 6,
+    "name": "Pedro Pascal",
+    "description": "Pedro Pascal is a Chilean-born actor. He is best known for portraying the roles of Oberyn Martell in the fourth season of the HBO series Game of Thrones (2011), Javier Peña in the Netflix series Narcos (2015), the titular character in the Disney+ series The Mandalorian (2019) and Joel Miller in the HBO series The Last of Us (2023).",
+    "image": "images/actors/people6.jpg",
+    "age": 50
+  },
+  {
+    "id": 7,
+    "name": "Chris Brancato",
+    "description": "Chris Brancato was born on 24 July 1962 in Teaneck, New Jersey, USA. He is a writer and producer, known for Species II (1998), Godfather of Harlem (2019) and First Wave (1998).",
+    "image": "images/actors/people7.jpg",
+    "age": 63
+  },
+  {
+    "id": 8,
+    "name": "Vince Gilligan",
+    "description": "George Vincent Gilligan Jr. (born February 10, 1967) is an American writer, producer, and director. He is known for his television work, specifically as creator, head writer, executive producer, and director of Breaking Bad and its spin-off Better Call Saul. He was a writer and producer for The X-Files and was the co-creator of its spin-off The Lone Gunmen.",
+    "image": "images/actors/people8.jpg",
+    "age": 58
+  },
+  {
+    "id": 9,
+    "name": "Bob Odenkirk",
+    "description": "Robert John Odenkirk was born in Berwyn, Illinois, to Barbara (Baier) and Walter Odenkirk, who worked in printing. His ancestry includes German and Irish. He grew up in Naperville, IL, the second of seven children. He worked as a DJ for WIDB, his college radio station at Southern Illinois University Carbondale. Three credits shy of graduation, he moved to Chicago. He began work there in local improv workshops. He also did open-mic stand-up comedy for several years. In Chicago, he became friends with Robert Smigel...",
+    "image": "images/actors/people9.jpg",
+    "age": 63
+  },
+  {
+    "id": 10,
+    "name": "Matt Duffer",
+    "description": "Matt Duffer of The Duffer Brothers, born in Durham, February 15, 1984, is a writer, producer, and director for film and television. He is most known as the creator and showrunner of the hit Netflix Sci-Fi TV series Stranger Things. Other works include the thriller film Hidden and he has written episodes for the TV series Wayward Pines.",
+    "image": "images/actors/people10.jpg",
+    "age": 41
+  },
+  {
+    "id": 11,
+    "name": "Millie Bobby Brown",
+    "description": "Millie Bobby Brown (born 19 February 2004) is an English actress and model. She rose to prominence for her role as Eleven in the Netflix science fiction drama series Stranger Things (2016), for which she earned a Primetime Emmy Award nomination for Outstanding Supporting Actress in a Drama Series at age 13. She is also the youngest person ever to feature on TIME 100 list.",
+    "image": "images/actors/people11.jpg",
+    "age": 21
+  },
+  {
+    "id": 12,
+    "name": "Anthony Russo",
+    "description": "Anthony J. Russo is an American filmmaker and producer who works alongside his brother Joseph Russo. They have directed You, Me and Dupree, Cherry and the Marvel films Captain America: The Winter Soldier, Captain America: Civil War, Avengers: Infinity War and Avengers: Endgame. Endgame is one of the highest grossing films of all time.",
+    "image": "images/actors/people12.jpg",
+    "age": 55
+  },
+  {
+    "id": 13,
+    "name": "Christopher Markus",
+    "description": "Christopher Markus was born on 16 October 1969 in Buffalo, New York, USA. He is a writer and producer, known for Avengers: Endgame (2019), Avengers: Infinity War (2018) and Captain America: The First Avenger (2011). He has been married to Claire Saunders since 22 October 2011.",
+    "image": "images/actors/people13.jpg",
+    "age": 56
+  },
+  {
+    "id": 14,
+    "name": "Robert Downey Jr.",
+    "description": "Robert Downey Jr. has evolved into one of the most respected actors in Hollywood. With an amazing list of credits to his name, he has managed to stay new and fresh even after over four decades in the business.",
+    "image": "images/actors/people14.jpg",
+    "age": 60
+  }
+]

@@ -1,0 +1,10 @@
+.section-heading::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  border-radius: 9999px;
+  background-color: #f5c518;
+}

@@ -1,0 +1,35 @@
+<div>
+    <div>
+      <app-section-heading>
+        Top Movie on IMDb in this week
+      </app-section-heading>
+    </div>
+
+    <div class="relative mt-6">
+      <div #movieCarousel class="flex flex-nowrap overflow-x-hidden gap-5 pb-4 scroll-smooth">
+        @for (movie of movies; track movie.id) {
+          <div class="w-[13rem] flex-shrink-0 flex-grow-0">
+            <app-movie-card [movie]="movie"></app-movie-card>
+          </div>
+        }
+      </div>
+
+      @if (canScrollLeft()) {
+        <button
+          mat-icon-button
+          (click)="scrollCarousel('left')"
+          class="absolute left-0 top-1/2 -translate-y-1/2 bg-gray-800 bg-opacity-70 text-white hover:text-[#f5c518] rounded-full p-2 z-10 transition-all hover:cursor-pointer">
+          <mat-icon>chevron_left</mat-icon>
+        </button>
+      }
+
+      @if (canScrollRight()) {
+        <button
+          mat-icon-button
+          (click)="scrollCarousel('right')"
+          class="absolute right-0 top-1/2 -translate-y-1/2 bg-gray-800 bg-opacity-70 text-white hover:text-[#f5c518] rounded-full p-2 z-10 transition-all hover:cursor-pointer">
+          <mat-icon>chevron_right</mat-icon>
+        </button>
+      }
+    </div>
+  </div>
